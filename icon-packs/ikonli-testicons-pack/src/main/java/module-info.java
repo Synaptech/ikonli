@@ -15,11 +15,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-module org.kordamp.ikonli.zondicons {
+module org.kordamp.ikonli.testicons {
     requires org.kordamp.iconli.core;
     requires static org.kordamp.jipsy;
-    exports org.kordamp.ikonli.zondicons;
+    exports org.kordamp.ikonli.testicons;
 
     provides org.kordamp.ikonli.IkonHandler
-        with org.kordamp.ikonli.zondicons.ZondiconsIkonHandler;
+        with org.kordamp.ikonli.testicons.TestIconsIkonHandler;
 }

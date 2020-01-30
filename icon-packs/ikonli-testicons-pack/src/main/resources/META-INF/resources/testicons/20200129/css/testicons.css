@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Testicons';
+  src:  url('fonts/Testicons.eot?5yj1zb');
+  src:  url('fonts/Testicons.eot?5yj1zb#iefix') format('embedded-opentype'),
+    url('fonts/Testicons.ttf?5yj1zb') format('truetype'),
+    url('fonts/Testicons.woff?5yj1zb') format('woff'),
+    url('fonts/Testicons.svg?5yj1zb#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Testicons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mybattleship:before {
+  content: "\e900";
+}
+.icon-mymusic:before {
+  content: "\e911";
+}
+.icon-mypodcast:before {
+  content: "\e91c";
+}
