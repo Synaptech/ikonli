@@ -16,10 +16,6 @@
  * limitations under the License.
  */
 
-// -----------------------------------------------------------------------------
-// Classification: Unclassified
-// -----------------------------------------------------------------------------
-
 package org.kordamp.ikonli.testicons;
 
 import org.kordamp.ikonli.Ikon;
@@ -32,7 +28,7 @@ import org.kordamp.ikonli.Ikon;
 public enum Testicons implements Ikon {
   MY_BATTLESHIP("icon-mybattleship", '\ue900'),
   MY_MUSIC("icon-mymusic", '\ue911'),
-  ADJUST("icon-mypodcast", '\ue91c');
+  MY_PODCAST("icon-mypodcast", '\ue91c');
 
   public static Testicons findByDescription(String description) {
     for (Testicons font : values()) {
