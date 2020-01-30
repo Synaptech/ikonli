@@ -18,7 +18,8 @@
 module org.kordamp.ikonli.feather {
     requires org.kordamp.iconli.core;
     requires static org.kordamp.jipsy;
-    exports org.kordamp.ikonli.feather;
+  requires org.kordamp.jipsy.annotations;
+  exports org.kordamp.ikonli.feather;
 
     provides org.kordamp.ikonli.IkonHandler
         with org.kordamp.ikonli.feather.FeatherIkonHandler;
