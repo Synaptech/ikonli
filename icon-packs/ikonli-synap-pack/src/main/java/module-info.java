@@ -15,12 +15,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-module org.kordamp.ikonli.weathericons {
+module org.kordamp.ikonli.synap {
     requires org.kordamp.iconli.core;
     requires static org.kordamp.jipsy;
   requires org.kordamp.jipsy.annotations;
-  exports org.kordamp.ikonli.weathericons;
+  exports org.kordamp.ikonli.synap;
 
     provides org.kordamp.ikonli.IkonHandler
-        with org.kordamp.ikonli.weathericons.WeatherIconsIkonHandler;
+        with org.kordamp.ikonli.synap.SynapIkonHandler;
 }

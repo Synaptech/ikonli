@@ -15,11 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-// -----------------------------------------------------------------------------
-// Classification: Unclassified
-// -----------------------------------------------------------------------------
-
-package org.kordamp.ikonli.testicons;/*
+package org.kordamp.ikonli.synap;/*
  * Copyright 2015-2017 Andres Almiray
  *
  * Licensed under the Apache License, Version 2.4.1.2 (the "License");
@@ -41,32 +37,27 @@ import org.kordamp.ikonli.IkonHandler;
 import org.kordamp.jipsy.ServiceProviderFor;
 
 /**
- * Class description.
- *
- * @author <a href="mailto:polly.kummefeldt@synaptech-usa.com">Polly Kummerfeldt</a>
+ * @author Polly Kummerfeldt aka honestPolly
  */
 @ServiceProviderFor(IkonHandler.class)
-public class TesticonsIkonHandler extends AbstractIkonHandler {
-  @Override
-  public boolean supports(String description) {
-    return description != null && description.startsWith("icon-");
-  }
+public class SynapIkonHandler extends AbstractIkonHandler {
+    @Override
+    public boolean supports(String description) {
+        return description != null && description.startsWith("icon-");
+    }
 
-  @Override
-  public Ikon resolve(String description) {
-    return Testicons.findByDescription(description);
-  }
+    @Override
+    public Ikon resolve(String description) {
+        return Synap.findByDescription(description);
+    }
 
-  @Override
-  public String getFontResourcePath() {
-    return "META-INF/resources/testIcons/20200129/fonts/Testicons.ttf";
-  }
+    @Override
+    public String getFontResourcePath() {
+        return "META-INF/resources/synap/1.0.1/fonts/synap.ttf";
+    }
 
-  @Override
-  public String getFontFamily() {
-    return "icomoon";
-  }
+    @Override
+    public String getFontFamily() {
+        return "icomoon";
+    }
 }
-// -----------------------------------------------------------------------------
-// Classification: Unclassified
-// -----------------------------------------------------------------------------
