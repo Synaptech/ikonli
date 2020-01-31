@@ -1,3 +1,5 @@
+import org.kordamp.ikonli.testicons.TesticonsIkonHandler;
+
 /*
  * SPDX-License-Identifier: Apache-2.0
  *
@@ -18,8 +20,9 @@
 module org.kordamp.ikonli.testicons {
     requires org.kordamp.iconli.core;
     requires static org.kordamp.jipsy;
+    requires org.kordamp.jipsy.annotations;
     exports org.kordamp.ikonli.testicons;
 
     provides org.kordamp.ikonli.IkonHandler
-        with org.kordamp.ikonli.testicons.TestIconsIkonHandler;
+        with org.kordamp.ikonli.testicons.TesticonsIkonHandler;
 }

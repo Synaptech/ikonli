@@ -18,7 +18,8 @@
 module org.kordamp.ikonli.themify {
     requires org.kordamp.iconli.core;
     requires static org.kordamp.jipsy;
-    exports org.kordamp.ikonli.themify;
+  requires org.kordamp.jipsy.annotations;
+  exports org.kordamp.ikonli.themify;
 
     provides org.kordamp.ikonli.IkonHandler
         with org.kordamp.ikonli.themify.ThemifyIkonHandler;
