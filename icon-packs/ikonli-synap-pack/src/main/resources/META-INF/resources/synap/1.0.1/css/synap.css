@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/synap.eot?yecgc0');
-  src:  url('../fonts/synap.eot?yecgc0#iefix') format('embedded-opentype'),
-    url('../fonts/synap.ttf?yecgc0') format('truetype'),
-    url('../fonts/synap.woff?yecgc0') format('woff'),
-    url('../fonts/synap.svg?yecgc0#icomoon') format('svg');
+  src:  url('../fonts/synap.eot?eln3yo');
+  src:  url('../fonts/synap.eot?eln3yo#iefix') format('embedded-opentype'),
+    url('../fonts/synap.ttf?eln3yo') format('truetype'),
+    url('../fonts/synap.woff?eln3yo') format('woff'),
+    url('../fonts/synap.svg?eln3yo#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -35,15 +35,21 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-mybattleship:before {
+.icon-satellite-2:before {
+  content: "\e901";
+}
+.icon-satellite-1:before {
+  content: "\e902";
+}
+.icon-battleship:before {
   content: "\e900";
 }
-.icon-mymusic:before {
+.icon-music:before {
   content: "\e911";
 }
-.icon-mypodcast:before {
+.icon-podcast:before {
   content: "\e91c";
 }
-.icon-myblocked:before {
+.icon-blocked:before {
   content: "\ea0e";
 }
