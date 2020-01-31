@@ -15,12 +15,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-module org.kordamp.ikonli.weathericons {
-    requires org.kordamp.iconli.core;
-    requires static org.kordamp.jipsy;
-  requires org.kordamp.jipsy.annotations;
-  exports org.kordamp.ikonli.weathericons;
-
-    provides org.kordamp.ikonli.IkonHandler
-        with org.kordamp.ikonli.weathericons.WeatherIconsIkonHandler;
+dependencies {
+    api project(':ikonli-core')
+    compileOnly "org.kordamp.jipsy:jipsy:${jipsyVersion}"
+    annotationProcessor "org.kordamp.jipsy:jipsy:${jipsyVersion}"
 }
