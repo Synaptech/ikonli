@@ -32,7 +32,7 @@ import org.kordamp.jipsy.ServiceProviderFor;
  * @author <a href="mailto:polly.kummefeldt@synaptech-usa.com">Polly Kummerfeldt</a>
  */
 @ServiceProviderFor(IkonHandler.class)
-public class TestIconsIkonHandler extends AbstractIkonHandler {
+public class TesticonsIkonHandler extends AbstractIkonHandler {
   @Override
   public boolean supports(String description) {
     return description != null && description.startsWith("icon-");
@@ -50,7 +50,7 @@ public class TestIconsIkonHandler extends AbstractIkonHandler {
 
   @Override
   public String getFontFamily() {
-    return "Testicons";
+    return "icomoon";
   }
 }
 // -----------------------------------------------------------------------------
