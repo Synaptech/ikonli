@@ -22,10 +22,12 @@ import org.kordamp.ikonli.Ikon;
  * @author Polly Kummerfeldt aka honestPolly
  */
 public enum Synap implements Ikon {
-    MYBATTLESHIP("icon-mybattleship", '\ue900'),
-    MYMUSIC("icon-mymusic", '\ue911'),
-    MYBLOCKED("icon-myblocked", '\uea0e'),
-    MYPODCAST("icon-mypodcast", '\ue91c');
+    BATTLESHIP("icon-battleship", '\ue900'),
+    MUSIC("icon-music", '\ue911'),
+    BLOCKED("icon-blocked", '\uea0e'),
+    SATELLITE_1("icon-satellite-1", '\ue902'),
+    SATELLITE_2("icon-satellite-2", '\ue901'),
+    PODCAST("icon-podcast", '\ue91c');
 
     public static Synap findByDescription(String description) {
         for (Synap font : values()) {
