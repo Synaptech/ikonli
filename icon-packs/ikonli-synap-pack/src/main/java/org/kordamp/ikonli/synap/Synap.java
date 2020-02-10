@@ -23,11 +23,8 @@ import org.kordamp.ikonli.Ikon;
  */
 public enum Synap implements Ikon {
     BATTLESHIP("icon-battleship", '\ue900'),
-    MUSIC("icon-music", '\ue911'),
-    BLOCKED("icon-blocked", '\uea0e'),
-    SATELLITE_1("icon-satellite-1", '\ue902'),
-    SATELLITE_2("icon-satellite-2", '\ue901'),
-    PODCAST("icon-podcast", '\ue91c');
+    SATELLITE("icon-satellite", '\ue901'),
+    BATTLESHIP_ON_WATER("icon-battleshiponwater", '\ue902');
 
     public static Synap findByDescription(String description) {
         for (Synap font : values()) {

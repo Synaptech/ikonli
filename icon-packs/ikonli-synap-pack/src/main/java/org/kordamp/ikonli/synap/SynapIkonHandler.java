@@ -58,6 +58,6 @@ public class SynapIkonHandler extends AbstractIkonHandler {
 
     @Override
     public String getFontFamily() {
-        return "icomoon";
+        return "synaptech";
     }
 }
