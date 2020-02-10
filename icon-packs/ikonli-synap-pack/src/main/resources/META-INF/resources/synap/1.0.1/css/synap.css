@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'icomoon';
-  src:  url('../fonts/synap.eot?eln3yo');
-  src:  url('../fonts/synap.eot?eln3yo#iefix') format('embedded-opentype'),
-    url('../fonts/synap.ttf?eln3yo') format('truetype'),
-    url('../fonts/synap.woff?eln3yo') format('woff'),
-    url('../fonts/synap.svg?eln3yo#icomoon') format('svg');
+  font-family: 'synaptech';
+  src:  url('../fonts/synap.eot?8uic1n');
+  src:  url('../fonts/synap.eot?8uic1n#iefix') format('embedded-opentype'),
+    url('../fonts/synap.ttf?8uic1n') format('truetype'),
+    url('../fonts/synap.woff?8uic1n') format('woff'),
+    url('../fonts/synap.svg?8uic1n#synaptech') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -12,44 +12,25 @@
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
+  font-family: 'synaptech' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-  
-  /* Enable Ligatures ================ */
-  letter-spacing: 0;
-  -webkit-font-feature-settings: "liga";
-  -moz-font-feature-settings: "liga=1";
-  -moz-font-feature-settings: "liga";
-  -ms-font-feature-settings: "liga" 1;
-  font-feature-settings: "liga";
-  -webkit-font-variant-ligatures: discretionary-ligatures;
-  font-variant-ligatures: discretionary-ligatures;
 
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-satellite-2:before {
-  content: "\e901";
-}
-.icon-satellite-1:before {
-  content: "\e902";
-}
 .icon-battleship:before {
   content: "\e900";
 }
-.icon-music:before {
-  content: "\e911";
+.icon-satellite:before {
+  content: "\e901";
 }
-.icon-podcast:before {
-  content: "\e91c";
-}
-.icon-blocked:before {
-  content: "\ea0e";
+.icon-battleshiponwater:before {
+  content: "\e902";
 }
